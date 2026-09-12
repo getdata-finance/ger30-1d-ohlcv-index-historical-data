@@ -1,6 +1,6 @@
 # GER30 1d OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_576_rows-blue)](https://getdata.finance/datasets/ger30) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/ger30)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_578_rows-blue)](https://getdata.finance/datasets/ger30) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/ger30)
 
 ### -> [**Download the full GER30 dataset on getdata.finance**](https://getdata.finance/datasets/ger30)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1d OHLCV** for **DAX 40 (GER30)** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/ger30) · **4,576** `1d` rows in the full archive
+- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/ger30) · **4,578** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `GER30_1d.csv` (732 rows, `2023-10-20` -> `2026-09-09`, 64.86 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/ger30)** — **4,576** `1d` rows (full `1m`: 2,329,742), **11 timeframes**, `2008-09-10` -> `2026-09-09`.
+> **Sample on GitHub** · `GER30_1d.csv` (732 rows, `2023-10-24` -> `2026-09-11`, 64.86 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/ger30)** — **4,578** `1d` rows (full `1m`: 2,329,742), **11 timeframes**, `2008-09-10` -> `2026-09-11`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | DAX 40 (GER30) · Index | DAX 40 (GER30) · Index |
 | Timeframes | `1d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1d rows | 732 | **4,576** |
+| 1d rows | 732 | **4,578** |
 | Size | 64.86 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/ger30) |
-| Period | `2023-10-20` -> `2026-09-09` | `2008-09-10` -> `2026-09-09` |
+| Period | `2023-10-24` -> `2026-09-11` | `2008-09-10` -> `2026-09-11` |
 | File | `GER30_1d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/ger30) |
 | Coverage report | — | [GER30 coverage](https://getdata.finance/coverage/ger30) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`GER30_1d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2023-10-20T00:00:00+00:00 | 14956.12 | 14974.3 | 14770.53 | 14776.06 | 119503 |
-| 2023-10-23T00:00:00+00:00 | 14777.06 | 14851.81 | 14624.67 | 14749.56 | 115801 |
 | 2023-10-24T00:00:00+00:00 | 14749.56 | 14914.79 | 14714.43 | 14903.67 | 106770 |
 | 2023-10-25T00:00:00+00:00 | 14903.67 | 14933.95 | 14784.93 | 14817.34 | 111065 |
 | 2023-10-26T00:00:00+00:00 | 14817.34 | 14817.34 | 14647.48 | 14673.9 | 149196 |
+| 2023-10-27T00:00:00+00:00 | 14673.9 | 14821.12 | 14583.77 | 14617 | 111029 |
+| 2023-10-30T00:00:00+00:00 | 14617 | 14799.3 | 14617 | 14756.18 | 97053 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-03T00:00:00+00:00 | 25858.53 | 26045.49 | 25784.34 | 26042.72 | 144614 |
-| 2026-09-04T00:00:00+00:00 | 26042.72 | 26164.11 | 25956.59 | 26061.49 | 123290 |
-| 2026-09-07T00:00:00+00:00 | 26062.01 | 26072.88 | 25923.86 | 25997.78 | 101152 |
-| 2026-09-08T00:00:00+00:00 | 25997.78 | 26045.73 | 25799.09 | 25876 | 163777 |
-| 2026-09-09T00:00:00+00:00 | 25876 | 25885.77 | 25854.51 | 25873.26 | 3794 |
+| 2026-09-07T00:00:00+00:00 | 26061.49 | 26073.37 | 25923.86 | 25997.78 | 102116 |
+| 2026-09-08T00:00:00+00:00 | 25997.78 | 26045.74 | 25798.58 | 25876 | 172574 |
+| 2026-09-09T00:00:00+00:00 | 25876 | 25909.11 | 25512.61 | 25524.51 | 187245 |
+| 2026-09-10T00:00:00+00:00 | 25524.51 | 25620.04 | 25298.53 | 25331.79 | 213668 |
+| 2026-09-11T00:00:00+00:00 | 25331.79 | 25587.5 | 25307.65 | 25553.89 | 183277 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **GER30** archive on **[getdata.finance](https://getdata.finance/datasets/ger30)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **4,576** rows at `1d`, plus all other timeframes in the same ZIP.
+The complete **GER30** archive on **[getdata.finance](https://getdata.finance/datasets/ger30)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **4,578** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full GER30 dataset on getdata.finance](https://getdata.finance/datasets/ger30)**
 
